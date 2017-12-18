@@ -7,6 +7,8 @@
 
 ### 这是三级标题
 
+> stackEdit真的很方便，上手很容易，好用请star
+
 
 直接写正文。。。
 换行一次还是追加内容，如果内容很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的很多很多的话
@@ -26,12 +28,12 @@
 - 列表1
 - 列表2
 
-1. 列表3
+1.  列表3
 2.  列表4
 3.  列表5
 
-+ 列表6
-* 列表7
++  列表6
+*  列表7
 
 
 这是一个链接，[我的博客](https://xinmingzhou.github.io)
@@ -79,5 +81,5 @@ NSLog(@"up2 = %@", [str2 uppercaseString]);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM3OTAxNTNdfQ==
+eyJoaXN0b3J5IjpbLTE0ODA5OTk2OTNdfQ==
 -->
