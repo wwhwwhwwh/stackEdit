@@ -43,16 +43,18 @@
 `单行代码这样括起来`
 
 ``` Objective-C（多行代码）
-	NSString *str = @"This is a String";
-    NSLog(@"low1 = %@", [str lowercaseString]);
-    NSLog(@"up1 = %@", [str uppercaseString]);
-    //交换两个方法
-    Method originalMethod = class_getInstanceMethod([NSString class], @selector(lowercaseString));
-    Method swappedMethod = class_getInstanceMethod([NSString class], @selector(uppercaseString));
-    method_exchangeImplementations(originalMethod, swappedMethod);
-    NSString *str2 = @"This is B String";
-    NSLog(@"low2 = %@", [str2 lowercaseString]);
-    NSLog(@"up2 = %@", [str2 uppercaseString]);
+
+NSString *str = @"This is a String";
+NSLog(@"low1 = %@", [str lowercaseString]);
+NSLog(@"up1 = %@", [str uppercaseString]);
+//交换两个方法
+Method originalMethod = class_getInstanceMethod([NSString class], @selector(lowercaseString));
+Method swappedMethod = class_getInstanceMethod([NSString class], @selector(uppercaseString));
+method_exchangeImplementations(originalMethod, swappedMethod);
+NSString *str2 = @"This is B String";
+NSLog(@"low2 = %@", [str2 lowercaseString]);
+NSLog(@"up2 = %@", [str2 uppercaseString]);
+
 ```
 
 
@@ -76,5 +78,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTIzMjMyOF19
+eyJoaXN0b3J5IjpbLTE5MzM5NDI2MTJdfQ==
 -->
