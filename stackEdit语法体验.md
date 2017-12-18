@@ -39,8 +39,9 @@
 这里是图片（怎么插入）
 ![这是图片描述](这是图片的绝对存放位置)
 
-
+这里是单行代码
 ` NSString *str = @"This is a String"; `
+
 
 ``` Objective-C（多行代码）
 
@@ -78,5 +79,5 @@ NSLog(@"up2 = %@", [str2 uppercaseString]);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzM1OTc3MF19
+eyJoaXN0b3J5IjpbLTIwODM3OTAxNTNdfQ==
 -->
